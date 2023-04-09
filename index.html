@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="./img/logo.png" alt="logo" />
+        <span>Про сервіс</span>
+      </div>
+      <div class="Sing">
+        <ul>
+          <li>Вхід</li>
+          <li>Реєстрація</li>
+        </ul>
+      </div>
+    </header>
+    <div class="main">
+      <div class="course">
+        <h1>Курс валют Приватбанк</h1>
+        <table class="tableCourse"></table>
+        <button class="otherBtn">Відкрити повний список</button>
+        <div class="convert">
+          <h1>Конвертер валют</h1>
+          <form class="form">
+            <input type="number" id="input" />
+            <select name="day" id="select">
+              <option>EUR</option>
+              <option>USD</option>
+              <option>CHF</option>
+              <option>GBP</option>
+              <option>PLZ</option>
+              <option>SEK</option>
+              <option>XAU</option>
+              <option>CAD</option>
+            </select>
+          </form>
+          <div class="btn">
+            <button type="button" id="btn">Продати</button>
+            <button type="button" id="btn2">Купити</button>
+            <p id="p"></p>
+          </div>
+        </div>
+      </div>
+      <div class="otherCourse">
+        <table class="otherTableCourse"></table>
+      </div>
+      <div class="valute">
+        <img src="/img/vallute.jpeg" alt="vallute" />
+      </div>
+    </div>
+    <script src="/script.js"></script>
+  </body>
+</html>
